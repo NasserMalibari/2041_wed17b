@@ -1,0 +1,14 @@
+a) 1. Just the fixed string 'Perl'
+
+b) Infinitely many, 
+shortest: 'Pl',
+longest: infinite...
+
+c) Infinitely many,
+e.g)
+'Full-stop.'
+'Full-stopa'
+'Full-stopc'
+etc.
+
+e) 8
