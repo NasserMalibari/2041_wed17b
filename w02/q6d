@@ -1,0 +1,1 @@
+sed -E '/^program2\t/,/^program13\t/d' benchmarks.txt 
