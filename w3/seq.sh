@@ -15,11 +15,30 @@ then
     start="$1"
     end="$3"
     increment="$2"
+else 
+    echo "Wrong number of args!" >&2  # note >&2 sends to stderr
+    exit 1
 fi
 
 if [ "$start" -eq "$start" ] 2> /dev/null
 then
-    echo "is a number"
+    :
+else
+    echo "not a number!"
+    exit 1
+fi
+
+if [ "$end" -eq "$end" ] 2> /dev/null
+then
+    :
+else
+    echo "not a number!"
+    exit 1
+fi
+
+if [ "$increment" -eq "$increment" ] 2> /dev/null
+then
+    :
 else
     echo "not a number!"
     exit 1
