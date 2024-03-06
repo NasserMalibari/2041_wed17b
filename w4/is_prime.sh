@@ -14,7 +14,7 @@ i=2
 
 # i < sqrt(n)
 # i * i < n
-while [ $i -lt $num ]
+while [ $(( i * i)) -lt $num ]
 do
 
     # if num % i == 0 
